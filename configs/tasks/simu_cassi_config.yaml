@@ -1,0 +1,10 @@
+measurement:
+  operator:
+    name: simu_cassi
+    mask_path: /mnt/vdb/isalab102/DMPlug-main/data/TSA_simu_data/
+    mask_type: Phi
+    input_setting: Y
+
+  noise:
+    name: gaussian
+    sigma: 0.01
